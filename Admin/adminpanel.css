@@ -1,88 +1,134 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
+body {
+    font-family: 'Poppins', sans-serif;
 }
-#container{
-    background-color: rgb(248, 246, 246);
-    display: flex;
+
+#nav {
+    font-size: 21px;
+    color: #182B3E;
 }
-.sidebar{
+
+#nav input {
+    margin-right: 350px;
+}
+
+#nav a{
+    margin: 10px;
+    color: #182B3E;
+}
+
+#img {
+    width: 18%;
+}
+
+#sidebar {
     background-color: #182B3E;
-    width: 22%;
     color: white;
 }
-.sidebar .siderow{
+
+#sidebar img {
+    width: 50%;
+    align-self: center;
+}
+
+#sidebar li {
     display: flex;
-    background-color: #214162;
-}
-.sidebar .siderow h3{
-    padding-top: 5px;
-    color: rgb(228, 227, 227);
-}
-.sidebar .siderow img{
-    width: 20%;
-    height: auto;
-    margin: 10px 10px;
-    border-radius: 2cm;
-}
-.sidebar .sidecol{
+    line-height: 20px;
     margin-left: 20px;
+    font-size: 17px;
+    border-bottom: #D2D1D1;
 }
-.sidebar .links{
-    background-color: #182B3E;
-    line-height: 40px;
-    margin-left: 20px;
-    color: rgb(228, 227, 227);
-    font-size: 18px;
+
+#sidebar li {
+    text-decoration: none;
+    color: #D2D1D1;
 }
-.sidebar .links i{
-    margin-right: 25px;
+
+#sidebar li i {
+    margin-right: 22px;
     font-size: 20px;
 }
-.sidebar .links a{
-    text-decoration: none;
-    color: rgb(228, 227, 227);
-}
-.sidebar .links a:hover{
-    color: palevioletred;
+
+#sidebar li i:hover {
+    color: #F8B739;
     transform: scale(1.02);
+    padding-left: 3px;
 }
-#container .sides{
-    background-color: #F7F7F7;
-    color: black;
+
+#sidebar li a {
+    text-decoration: none;
+    color: #D2D1D1;
 }
-.navbar{
+
+#sidebar li a:hover {
+    color: #F8B739;
+    transform: scale(1.02);
+    padding-left: 3px;
+    letter-spacing: 2px;
+}
+#sidebar li a.active{
+    color: #fdfdfb;
+    font-weight: 600;
+    font-size: larger;
+}
+#topcard{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+#topcard:hover{
+    transform: scale(1.01);
+    transition: transform, box-shadow 2s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#visitcard1{
+    background-color: #F8D7DA;
+}
+#visitcard2{
+    background-color: #CFE2FF;
+}
+#visitcard3{
+    background-color: #DADCF8;
+}
+#visitcard4{
+    background-color: #D7F0DD;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.navbar {
     color: white;
     display: flex;
     background-color: #15283C;
 }
-.navbar .heading{
+
+.navbar .heading {
     padding: 0 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
 }
-.navbar .heading .items{
+
+.navbar .heading .items {
     margin-left: 730px;
     padding: 30px 0;
 }
-.navbar .heading .items i{
+
+.navbar .heading .items i {
     padding: 0 8px;
     font-size: 22px;
 }
-.sides .iname{
+
+.sides .iname {
     background-color: white;
     padding: 10px 0;
     padding-top: 20px;
     color: #15283C;
 }
-.sides .iname p{
+
+.sides .iname p {
     margin-left: 20px;
     font-size: 20px;
 }
-.sides .cards{
-    display: flex;
-}
-.sides .cards .box{
+
+.sides .cards .box {
     display: flex;
     padding: 4px 0px;
     border-radius: 0.2cm;
@@ -91,40 +137,50 @@ body{
     background-color: white;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.sides .cards .box:hover{
+
+.sides .cards .box:hover {
     background-color: #214162;
     color: white;
     transform: scale(1.05);
     transition: 0.5s;
 }
-.sides .cards .box .boxi1{
+
+#cards .boxi1 {
     color: #ee4f3a;
 }
-.sides .cards .box .boxi2{
+
+#cards .boxi2 {
     color: #2196F3;
 }
-.sides .cards .box .boxi3{
+
+#cards .boxi3 {
     color: #009688;
 }
-.sides .cards .box .boxi4{
+
+#cards .boxi4 {
     color: #E91E63;
 }
-.sides .cards .box i{
+
+.sides .cards .box i {
     font-weight: bolder;
     font-size: 54px;
     margin: 20px 30px;
 }
-.sides .cards .box .bitem{
+
+.sides .cards .box .bitem {
     margin-right: 40px;
 }
-.sides .cards .box .bitem h4{
+
+.sides .cards .box .bitem h4 {
     margin-top: 10px;
 }
-.sides .cards .box .bitem p{
+
+.sides .cards .box .bitem p {
     margin-bottom: 20px;
     color: rgb(176, 173, 173);
 }
-.sides #contain{
+
+.sides #contain {
     margin: 10px 20px;
     font-size: 18px;
     background-color: white;
@@ -132,11 +188,13 @@ body{
     border-top-left-radius: 0.5cm;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-.sides #contain thead{
+
+.sides #contain thead {
     background-color: white;
     color: black;
 }
-.sides .progressbarr{
+
+.sides .progressbarr {
     margin: 20px 20px;
     margin-top: 50px;
     padding: 0 5px;
@@ -146,17 +204,21 @@ body{
     background-color: white;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
-.sides .progressbarr h2{
+
+.sides .progressbarr h2 {
     color: #15283C;
     margin: 20px 30px;
 }
-.progress{
+
+.progress {
     margin: 0 20px;
 }
-.sides .card{
+
+/* .sides .card {
     display: flex;
-}
-.sides .card .box{
+} */
+
+.sides .card .box {
     border-radius: 0.2cm;
     font-size: large;
     text-align: center;
@@ -165,51 +227,48 @@ body{
     background-color: rgb(245, 248, 251);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.sides .card .box:hover{
+
+.sides .card .box:hover {
     transform: scale(1.05);
     transition: 0.2s;
 }
-.sides .card .box i{
+
+.sides .card .box i {
     color: white;
     font-size: 40px;
 }
-.sides .card .box .bi1{
-    background-color: #D34836;
-    border-top-left-radius: 0.2cm;
-    border-top-right-radius: 0.2cm;
+
+#cards .bi1 {
+    background-color: #568DE5;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 12px 0;
 }
-.sides .card .box .bi2{
+
+#cards .bi2 {
     background-color: #3B5998;
-    border-top-left-radius: 0.2cm;
-    border-top-right-radius: 0.2cm;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 12px 0;
 }
-.sides .card .box .bi3{
+
+#cards .bi3 {
     background-color: #00ACED;
-    border-top-left-radius: 0.2cm;
-    border-top-right-radius: 0.2cm;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 12px 0;
 }
-.sides .card .box .bi4{
+
+#cards .bi4 {
     background-color: #FF0000;
-    border-top-left-radius: 0.2cm;
-    border-top-right-radius: 0.2cm;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 12px 0;
 }
-.sides .card .box .bitem{
-    display: flex;
-}
-.sides .card .box .bitem h2{
+/* #cards .card{
+    margin: 0 40px;
+} */
+.sides .card .box .bitem h2 {
     color: #455A64;
     font-weight: 600;
 }
-.sides .card .box .bitem p{
+
+.sides .card .box .bitem p {
     color: rgb(176, 173, 173);
     margin: 0 18px;
     font-size: larger;
+}
+#myDiv{
 }

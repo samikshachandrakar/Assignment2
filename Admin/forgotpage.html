@@ -86,13 +86,21 @@
     font-size: 15px;
     color: white;
 }
+@media screen and (max-width:1024px) {
+    .main{
+        flex-direction: column;
+    }
+    .head{
+       padding-left: none;
+    }
+}
     </style>
 </head>
 <body>
         <div class="container">
             <div class="main row">
                 <div class="col1 col-lg-5 col-md-5 col-xs-12 col-xs-12">
-                    <img src="/images/forgot.gif" alt="Image is missing">
+                    <img src="/Admin/images/forgot.gif" alt="Image is missing">
                 </div>
                 <div class="col2 col-lg-7 col-md-7 col-xs-12 col-xs-12">
                     <form method="post" onsubmit="return validateform()" name="forgotform">
@@ -130,7 +138,7 @@
                     alert("Password must be at least 6 character long.");
                     return false;
                 } else{
-                    window.open('http://127.0.0.1:5500/Adminpanel.html');
+                    window.open('http://127.0.0.1:5500/Admin/Adminpanel.html');
                 }
             }
         </script>

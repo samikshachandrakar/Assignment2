@@ -36,10 +36,10 @@
             <div><a href="/Admin/subscription.html"><i class="fa fa-dollar"></i>Subscription</a></div>
           </li>
           <hr>
-          <!-- <li>
+          <li>
             <div><a href="/Admin/history.html"><i class="bi bi-clock-history"></i>History</a></div>
           </li>
-          <hr> -->
+          <hr>
           <li>
             <div><a href="/Admin/history.html"><i class="bi bi-person-circle"></i>Sub Admin</a></div>
           </li>
@@ -48,66 +48,65 @@
       </div>
       <div class="col-lg-10 col-sm-12 bg-light">
         <div class="row">
-          <div class="col-12 container d-flex bg-white p-2" id="nav">
-            <input type="password" placeholder="Search for anything" class="border-0 bg-white form-control" size="30">
-            <div class="hidden-md-down">
-              <a href=""><i class="bi bi-gear"></i></a>
-              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
-                aria-hidden="true">
-                <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
-                  <div class="modal-content">
-                    <h6 class="mt-3 m-2">You have 3 Notifications</h6>
-                    <hr>
-                    <div class="modal-body text-center mb-1">
-                      <div class="d-flex">
-                        <div class="w-25 p-3 text-white  bg-success rounded-circle border"><i
-                            class="bi bi-envelope-open"></i></div>
-                        <h6 class="mt-2 ">You got a email notification <span>
-                            <h6></h6>
-                          </span></h6>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi bi-bell"></i></a>
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header d-flex">
-                      <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.webp" style="width: 30%;"
-                        alt="avatar" class="rounded-sqaure img-responsive">
-                      <div>
-                        <h5>Smith John</h5>
-                        <h6 class="text-muted">Smithjohn@gmail.com</h6>
-                      </div>
-                    </div>
-                    <div class="modal-body text-center mb-1">
-                      <div class="d-flex">
-                        <i class="bi bi-person-fill"></i>
-                        <h6 class="mt-2 m-3">Account</h6>
-                      </div>
-                      <div class="d-flex">
-                        <i class="bi bi-gear-fill"></i>
-                        <h6 class="mt-2 m-3">Setting</h6>
-                      </div>
-                      <div class="d-flex">
-                        <i class="bi bi-cash"></i>
-                        <h6 class="mt-2 m-3">Billing</h6>
-                      </div>
+          <div class="col-12 container d-flex bg-white justify-content-between" id="nav">
+            <div class="d-flex justify-content-start">
+              <i class="bi bi-search pt-2 mt-2 pb-2 h6"></i>
+              <input type="password" placeholder="Search for anything"
+                class="border-0 mt-2 mb-2  bg-white form-control">
+            </div>
+            <div>
+              <div id="navside">
+                <a href=""><i class="bi bi-gear"></i></a>
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                  aria-hidden="true">
+                  <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+                    <div class="modal-content">
+                      <h6 class="mt-3 m-2 text-dark">You have 3 Notifications</h6>
                       <hr>
-                      <div class="d-flex">
-                        <i class="bi bi-power"></i>
-                        <h6 class="mt-2 m-3">Logout</h6>
+                      <div class="modal-body text-center mb-1">
+                        <div class="d-flex">
+                          <i class="bi bi-envelope-open text-dark fw-bold"></i>
+                          <h6 class="text-muted m-2">You got a email notification</h6>
+                        </div>
+                        <div class="d-flex">
+                          <i class="bi bi-google text-dark fw-bold"></i>
+                          <h6 class="text-muted m-1">You got a message from google</h6>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi bi-bell"></i></a>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header d-flex">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%281%29.webp" style="width: 30%;"
+                          alt="avatar" class="rounded-sqaure img-responsive">
+                        <div>
+                          <h5>Smith John</h5>
+                          <h6 class="text-muted">Smithjohn@gmail.com</h6>
+                        </div>
+                      </div>
+                      <div class="modal-body text-center">
+                        <div class="d-flex">
+                          <i class="bi bi-person-fill"></i>
+                          <h6 class="mt-2 m-3">Activity</h6>
+                        </div>
+                        <hr>
+                        <div class="d-flex">
+                          <i class="bi bi-power"></i>
+                          <h6 class="mt-2 m-3">Logout</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="images/doc.jpg" class="profile-image rounded-pill m-1" alt="Dr. Codex Lantern" id="img">
+                </a>
               </div>
-              <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="images/doc.jpg" class="profile-image rounded-pill" alt="Dr. Codex Lantern" id="img">
-              </a>
             </div>
           </div>
         </div>
@@ -198,18 +197,19 @@
             <table class="table table-hover bg-primary">
               <div class="dataTable-top mt-3 mb-2 d-flex justify-content-between">
                 <div class="dataTable-dropdown"><span class="me-2" id="categoryBulkActionOrders">
-                  <select class="form-select form-select-sm d-inline w-auto" name="categoryBulkAction">
+                    <select class="form-select form-select-sm d-inline w-auto" name="categoryBulkAction">
                       <option>Hourly</option>
                       <option>Weekly</option>
                       <option>Monthly</option>
                       <option>Yearly</option>
-                  </select>
-                  <select class="form-select form-select-sm d-inline w-auto" name="categoryBulkAction">
+                    </select>
+                    <select class="form-select form-select-sm d-inline w-auto" name="categoryBulkAction">
                       <option>Bulk Actions</option>
                       <option>Delete</option>
-                  </select>
+                    </select>
                 </div>
-                <div class="dataTable-search"><input class="dataTable-input form-control form-control-sm" placeholder="Search..." type="text"></div>
+                <div class="dataTable-search"><input class="dataTable-input form-control form-control-sm"
+                    placeholder="Search..." type="text"></div>
               </div>
               <thead>
                 <tr class="bg-dark">

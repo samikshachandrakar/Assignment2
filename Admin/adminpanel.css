@@ -5,32 +5,30 @@ body {
 #nav {
     font-size: 21px;
     color: #182B3E;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-
-#nav input {
-    margin-right: 350px;
-}
-
 #nav a{
     margin: 10px;
     color: #182B3E;
 }
-
+#navside{
+    margin-left: 750px;
+}
 #img {
-    width: 18%;
+    width: 23%;
 }
 
-#sidebar {
+#nav-bar {
     background-color: #182B3E;
     color: white;
 }
 
-#sidebar img {
+#nav-bar img {
     width: 50%;
     align-self: center;
 }
 
-#sidebar li {
+#nav-bar li {
     display: flex;
     line-height: 20px;
     margin-left: 20px;
@@ -38,34 +36,34 @@ body {
     border-bottom: #D2D1D1;
 }
 
-#sidebar li {
+#nav-bar li {
     text-decoration: none;
     color: #D2D1D1;
 }
 
-#sidebar li i {
+#nav-bar li i {
     margin-right: 22px;
     font-size: 20px;
 }
 
-#sidebar li i:hover {
+#nav-bar li i:hover {
     color: #F8B739;
     transform: scale(1.02);
     padding-left: 3px;
 }
 
-#sidebar li a {
+#nav-bar li a {
     text-decoration: none;
     color: #D2D1D1;
 }
 
-#sidebar li a:hover {
+#nav-bar li a:hover {
     color: #F8B739;
     transform: scale(1.02);
     padding-left: 3px;
     letter-spacing: 2px;
 }
-#sidebar li a.active{
+#nav-bar li a.active{
     color: #fdfdfb;
     font-weight: 600;
     font-size: larger;

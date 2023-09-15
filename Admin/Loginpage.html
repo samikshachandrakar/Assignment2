@@ -15,22 +15,22 @@
 <body>
   <div class="container mt-5">
     <div class="row  justify-content-center">
-      <div class="col-lg-4 col-sm-12">
+      <div class="col-lg-4 col-sm-10 mb-0">
         <img src="/Admin/images/document-summarizer-logo (3).png" class="mt-2" id="row">
       </div>
     </div>
-    <div class="row mt-2">
-      <div class="col-lg-6 col-sm-12 mb-4 mt-2">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 mb-4">
         <img src="/Admin/images/draw2.svg" alt="Image is missing" id="img">
       </div>
-      <div class="col-lg-6 col-sm-6 mt-2">
+      <div class="col-lg-6 col-sm-12">
         <form name="loginform" method="post" onsubmit="return validateform()" class="m-3">
-          <input type="email" class="form-control"  name="emailid" aria-describedby="emailHelp" placeholder=" EMAIL ID" required /><br>
-          <input type="email" class="form-control"  name="password" aria-describedby="emailHelp" placeholder=" PASSWORD" required /><br>
+          <input type="email" class="form-control"  name="emailid" aria-describedby="emailHelp" placeholder="EMAIL ID" required /><br>
+          <input type="email" class="form-control"  name="password" aria-describedby="emailHelp" placeholder="PASSWORD" required /><br>
           <div class="justify-content-between d-flex m-3 mt-0 mb-0">
-            <div class="d-flex">
-              <input type="checkbox" checked />
-              <h6 class="m-1">Remember me</h6>
+            <div class="d-flex h6 fw-normal">
+              <input type="checkbox" checked/>
+              <p class="m-1">Remember me</p>
             </div>
             <a href="forgotpage.html">Forgot Password?</a>
           </div>
@@ -39,11 +39,11 @@
           </div>
           <div class="info mb-1">
             <div id="line"></div>
-            <h6 class="fw-bolder text-dark">OR</h6>
+            <h6 class="fw-normal text-dark">OR</h6>
             <div id="line"></div>
           </div>
           <div class="d-grid">
-            <button type="button"  name="loginbtn" onclick="validateform()" class="text-white rounded-2 h5 border-0 p-2" id="google">CONTINUE WITH GOOGLE</button>
+            <button type="button"  name="loginbtn" onclick="validateform()" class="text-white rounded-2 mb-4 h5 border-0 p-2" id="google"><i class="bi bi-google m-2 h4 mb-3"></i>CONTINUE WITH GOOGLE</button>
           </div>
           <div class="d-grid">
             <button type="button"  name="loginbtn" onclick="validateform()" class="text-white rounded-2 h5 border-0 p-2" id="face">CONTINUE WITH FACEBOOK</button>

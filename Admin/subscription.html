@@ -17,42 +17,39 @@
 <body>
     <section class="container-fuild" id="container">
         <div class="row">
-            <div class="col-lg-2 col-sm-12" id="nav-bar">
-                <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column nav" id="sidebar1">
-                    <img src="/Admin/images/doc-summarizer-logo-removebg-preview.png" class="w-100"
-                        alt="𝓓𝓸𝓬𝓾𝓶𝓮𝓷𝓽 𝓢𝓾𝓶𝓶𝓪𝓻𝓲𝔃𝓮𝓻">
-                    <ul class="list-unstyled components text-center nav flex-column p-2 nav_list">
-                        <li>
-                            <div><a href="/Admin/Adminpanel.html" class="nav_link"><i class="bi bi-house nav_icon"></i>Home</a></div>
-                        </li>
-                        <hr>
-                        <li>
-                            <div><a href="/Admin/users.html" class="nav_link"><i class="bi bi-people nav_icon"></i>Users</a></div>
-                        </li>
-                        <hr>
-                        <li>
-                            <div><a href="/Admin/banners.html" class="nav_link"><i class="bi bi-stop-btn nav_icon"></i>Banners</a></div>
-                        </li>
-                        <hr>
-                        <li>
-                            <div class="active"><a href="/Admin/subscription.html" class="nav_link active"><i
-                                        class="fa fa-dollar nav_icon"></i>Subscription</a></div>
-                        </li>
-                        <hr>
-                        <li>
-                            <div><a href="/Admin/history.html" class="nav_link"><i class="bi bi-clock-history nav_icon"></i>History</a></div>
-                        </li>
-                        <hr>
-                        <li>
-                            <div><a href="/Admin/subadmin.html" class="nav_link"><i class="bi bi-person-circle nav_icon"></i>Sub Admin</a></div>
-                        </li>
-                        <hr>
-                    </ul>
-                </div>
-            </div>
+            <div class="col-lg-2 col-sm-12" id="sidebar">
+                <div class=" text-center"><img src="/Admin/images/doc-summarizer-logo-removebg-preview.png" class="w-100"
+                    alt="𝓓𝓸𝓬𝓾𝓶𝓮𝓷𝓽 𝓢𝓾𝓶𝓶𝓪𝓻𝓲𝔃𝓮𝓻"></div>
+                <ul class="list-unstyled components text-center p-2">
+                  <li>
+                    <div><a href="/Admin/Adminpanel.html"><i class="bi bi-house"></i>Dashboard</a></div>
+                  </li>
+                  <hr>
+                  <li>
+                    <div class="active"><a href="/Admin/users.html"><i class="bi bi-people"></i>Users</a></div>
+                  </li>
+                  <hr>
+                  <li>
+                    <div><a href="/Admin/banners.html"><i class="bi bi-stop-btn"></i>Banners</a></div>
+                  </li>
+                  <hr>
+                  <li>
+                    <div><a href="/Admin/subscription.html" class="active"><i class="fa fa-dollar"></i>Subscription</a></div>
+                  </li>
+                  <hr>
+                  <li>
+                    <div><a href="/Admin/history.html"><i class="bi bi-clock-history"></i>History</a></div>
+                  </li>
+                  <hr>
+                  <li>
+                    <div><a href="/Admin/history.html"><i class="bi bi-person-circle"></i>Sub Admin</a></div>
+                  </li>
+                  <hr>
+                </ul>
+              </div>
             <div class="col-lg-10 col-sm-12 bg-light">
-                <div class="row" id="nav-bar">
-                    <div class="col-12 container d-flex bg-white justify-content-between nav">
+                <div class="row">
+                    <div class="col-12 container d-flex bg-white justify-content-between" id="nav">
                         
                         <div class="d-flex justify-content-start">
                             <i class="bi bi-search pt-2 mt-2 pb-2 h6"></i>
@@ -61,7 +58,6 @@
                         </div>
                         <div>
                             <div id="navside">
-                                <a href=""><i class="bi bi-gear"></i></a>
                                 <div class="modal fade" id="exampleModal2" tabindex="-1"
                                     aria-labelledby="exampleModalLabel2" aria-hidden="true">
                                     <div class="modal-dialog cascading-modal modal-avatar modal-sm" role="document">
@@ -111,7 +107,7 @@
                                     </div>
                                 </div>
                                 <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                    <img src="images/doc.jpg" class="profile-image rounded-pill m-1"
+                                    <img src="images/doc.jpg" class="profile-image rounded-pill m-4 mb-0 mt-1"
                                         alt="Dr. Codex Lantern" id="img">
                                 </a>
                             </div>
